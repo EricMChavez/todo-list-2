@@ -1,0 +1,9 @@
+.X {
+	font-size: 10px;
+	background-color: darkred;
+	color: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
