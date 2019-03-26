@@ -25,11 +25,9 @@ function addEntry() {
 }
 function complete(taskNumber) {
 	var completeditem = document.getElementById('card' + taskNumber);
-	var iDiv = document.createElement('div');
-	iDiv.className = 'card bg-success m-3 pb-5 pt-2 col-2';
-	iDiv.id = 'card' + i;
-	iDiv.innerHTML = toDo[i];
-	document.querySelector('#completed').appendChild(iDiv);
+	completeditem.className = 'card m-3 bg-success pb-5 pt-2 col-3';
+	completeditem.innerHTML = toDo[taskNumber];
+	document.querySelector('#completed').appendChild(completeditem);
 	remove(taskNumber);
 }
 function remove(taskNumber) {
