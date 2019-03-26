@@ -7,3 +7,18 @@
 	top: 5px;
 	right: 5px;
 }
+.complete {
+	font-size: 15px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.card {
+	font-weight: 700;
+}
+.bg-secondary {
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+}
