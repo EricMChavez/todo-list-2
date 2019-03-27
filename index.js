@@ -3,10 +3,12 @@ let completed = [];
 
 function add() {
 	let task = document.querySelector('#input-field').value;
-	document.querySelector('#input-field').value = '';
-	toDo.push(task);
-	clearToDo();
-	readToDo(true);
+	if (task != '') {
+		document.querySelector('#input-field').value = '';
+		toDo.push(task);
+		clearToDo();
+		readToDo(true);
+	}
 }
 function readToDo(newItem) {
 	for (i in toDo) {
