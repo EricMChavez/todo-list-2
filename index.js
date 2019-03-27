@@ -24,7 +24,7 @@ function readList() {
 	}
 	for (i in completed) {
 		var xDiv = document.createElement('div');
-		xDiv.className = 'card bg-success text-center text-light m-3 pb-5 pt-2 col-2';
+		xDiv.className = 'card bg-success text-center m-3 pb-5 pt-2 col-2';
 		xDiv.id = 'card' + i;
 		xDiv.innerHTML = completed[i] + '<button class="completedX" onclick="removeCompleted(' + i + ')">X</button>';
 		document.querySelector('#completed').appendChild(xDiv);

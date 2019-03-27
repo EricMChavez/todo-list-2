@@ -1,3 +1,6 @@
+.bg-light {
+	font-family: 'Montserrat', sans-serif;
+}
 .X {
 	font-size: 10px;
 	border: none;
@@ -36,4 +39,19 @@
 }
 .card {
 	font-weight: 700;
+}
+#input-field {
+	border-bottom-left-radius: 15px;
+	padding-left: 15px;
+	border-top: 0;
+	border-right: 0;
+}
+#input-field:focus {
+	outline: none;
+}
+#btn {
+	border-bottom-right-radius: 15px;
+	padding-right: 15px;
+	border-left: 0;
+	border-top: 0;
 }
