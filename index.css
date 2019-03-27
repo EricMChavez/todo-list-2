@@ -8,9 +8,9 @@
 	color: white;
 	position: absolute;
 	padding: 0;
-	width: 50%;
+	width: 51%;
 	height: 30px;
-	right: 0;
+	right: -1;
 	bottom: -1;
 }
 .completedX {
@@ -30,9 +30,9 @@
 	border: none;
 	padding: 0;
 	position: absolute;
-	width: 50%;
+	width: 51%;
 	height: 30px;
-	left: 0;
+	left: -1;
 	bottom: -1;
 	background-color: green;
 	color: white;
