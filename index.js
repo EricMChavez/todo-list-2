@@ -10,7 +10,7 @@ function add() {
 function readList() {
 	for (i in toDo) {
 		var iDiv = document.createElement('div');
-		iDiv.className = 'card m-3 pb-5 pt-2 col-3';
+		iDiv.className = 'card text-center rounded-top m-3 pb-5 pt-1 col-2';
 		iDiv.id = 'card' + i;
 		iDiv.innerHTML =
 			toDo[i] +
@@ -24,9 +24,9 @@ function readList() {
 	}
 	for (i in completed) {
 		var xDiv = document.createElement('div');
-		xDiv.className = 'card bg-success text-light m-3 pb-5 pt-2 col-2';
+		xDiv.className = 'card bg-success text-center text-light m-3 pb-5 pt-2 col-2';
 		xDiv.id = 'card' + i;
-		xDiv.innerHTML = completed[i] + '<button class="X" onclick="removeCompleted(' + i + ')">X</button>';
+		xDiv.innerHTML = completed[i] + '<button class="completedX" onclick="removeCompleted(' + i + ')">X</button>';
 		document.querySelector('#completed').appendChild(xDiv);
 	}
 }
